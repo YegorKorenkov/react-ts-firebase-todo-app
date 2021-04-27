@@ -1,0 +1,38 @@
+.todoPage {
+  margin: 100px auto;
+  text-align: center;
+
+  h1 {
+    font-weight: 500;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  .logoutButton {
+    height: 38px;
+  }
+
+  input {
+    min-width: 100px;
+    width: 300px;
+    height: 45px;
+    padding: 0 20px;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  .addButton {
+    height: 45px;
+    margin-left: 20px;
+  }
+
+  .whiteBlock {
+    padding: 35px;
+  }
+}

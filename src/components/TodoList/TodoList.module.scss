@@ -1,0 +1,65 @@
+.todosList {
+  overflow-y: visible;
+
+  li {
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .subtitle {
+      margin-top: 5px;
+      margin-left: 10px;
+      font-size: 16px;
+      color: #929090;
+    }
+  }
+
+  .button {
+    height: 48px;
+    border-radius: 0px;
+    padding: 0 10px;
+    transition: all 0.3s;
+    margin-right: 30px;
+
+    &:hover {
+      background-color: rgba($color: rgb(218, 214, 214), $alpha: 0.2);
+    }
+  }
+  .deleteIcon {
+    padding-top: 3px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    svg {
+      margin: auto;
+      height: 24px;
+      width: 24px;
+      margin-bottom: 14px;
+    }
+    &:hover {
+      color: rgb(202, 42, 42);
+    }
+  }
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    margin-top: 45px;
+    font-size: 22px;
+  }
+}
